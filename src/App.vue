@@ -18,5 +18,7 @@ export default {
 </script>
 
 <style>
-
+  body {
+    font-family: 'Cousine', monospace;
+  }
 </style>
