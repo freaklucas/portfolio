@@ -39,6 +39,7 @@
           "
         >
           <a
+            v-for="luk in name" v-bind:key="luk"
             class="
               flex-1
               hover:text-purple-300
@@ -47,7 +48,7 @@
               hover:border-indigno-600
             "
           >
-            Lucas />
+            {{ luk.text}}
           </a>
           <a
             class="
@@ -99,7 +100,15 @@
 </template>
 
 <script>
-export default {};
+export default {
+    data() {
+        return {
+            name: [ 
+               { text: '<Lucas Oliveira/>' }
+            ]
+        }
+    }
+};
 </script>
 
 <style>
