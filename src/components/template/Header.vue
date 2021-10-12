@@ -1,8 +1,8 @@
 <template>
-  <div class="flex">
+  <div class="flex items-center justify-between w-full">
     <header
       class="
-        fixed
+        
         items-center
         justify-between
         flex-wrap

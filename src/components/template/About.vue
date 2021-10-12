@@ -1,19 +1,18 @@
 <template>
-  <div class="container">
+  <div class="flex w-full">
     <div
       class="
         flex flex-col
         lg:flex-row
         justify-around
         items-center
-        lg:mx-10
-        py-4
-        mt-6
+        pt-4
         bg-purple-600
+        w-full
       "
     >
-      <div class="w-2/3 mr-8">
-        <h1 class="font-bold text-4xl mb-4 text-gray-200 text-justify ml-2">
+      <div class="w-2/3 mr-8 ml-4">
+        <h1 class="font-bold text-4xl mb-4 text-gray-200 text-justify ml-4">
           Seja muito bem vindo(a), sou o
         </h1>
         <div class="flex line">
@@ -38,7 +37,7 @@
             <h2
               class="
                 font-bold
-                text-gray-700 text-xl text-justify
+                text-gray-800 text-xl text-justify
                 justify-center
                 mt-4
                 ml-2
@@ -46,31 +45,31 @@
             >
               Desenvolvedor front-end focado na experiência do usuário
             </h2>
-                        <h2
+            <h2
               class="
                 font-bold
-                text-gray-700 text-sm text-justify
+                text-gray-900 text-sm text-justify
                 justify-center
                 mt-2
                 ml-2
                 mb-4
               "
             >
-             UI/UX | Javascript | Vue.js | Tailwind | Vite
+              UI/UX | Javascript | Vue.js | Tailwind | Vite
             </h2>
           </div>
         </div>
         <button
           class="
             bg-blue-800
-            hover:bg-blue-400
+            hover:bg-blue-600
             text-white
             font-bold
             py-4
             px-4
             border-b-4 border-blue-900
             hover:border-blue-900
-            rounded
+            rounded-full
             ml-2
             mt-2
           "
@@ -78,8 +77,8 @@
           Conheça meu trabalho
         </button>
       </div>
-      <div class="lg:w-2/3 w-2/3 mt-4 lg:mt-2 pl-4 ml-2">
-        <img src="@/assets/images/computer.png" alt="" />
+      <div class="lg:w-2/3 w-2/3 mt-4 lg:mt-2 pl-4 ml-4">
+        <img src="@/assets/images/computer.png" alt="" class="pl-8 flex flex-end" />
       </div>
     </div>
   </div>
