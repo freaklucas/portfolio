@@ -1,22 +1,25 @@
 <template>
   <div>
-      <Header />
-      <About />
+    <Header />
+    <About />
+    <Project />
   </div>
 </template>
 
 <script>
+import Header from "@/components/template/Header.vue";
+import About from "@/components/template/About.vue";
+import Project from "@/components/template/Project.vue";
 
-import Header from '@/components/template/Header.vue'
-import About from '@/components/template/About.vue'
 export default {
-    components: {
-        Header,
-        About
-    },
-}
+  name: "Home",
+  components: {
+    Header,
+    About,
+    Project,
+  },
+};
 </script>
 
 <style>
-
 </style>

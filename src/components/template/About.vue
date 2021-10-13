@@ -78,7 +78,11 @@
         </button>
       </div>
       <div class="lg:w-2/3 w-2/3 mt-4 lg:mt-2 pl-4 ml-4">
-        <img src="@/assets/images/computer.png" alt="" class="pl-8 flex flex-end" />
+        <img
+          src="@/assets/images/computer.png"
+          alt=""
+          class="pl-8 flex flex-end"
+        />
       </div>
     </div>
   </div>
