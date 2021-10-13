@@ -1,5 +1,7 @@
 <template>
   <div class="flex w-full">
+    <particles-bg type="cobweb" :bg="true" />
+
     <div
       class="
         flex flex-col
@@ -42,9 +44,19 @@
                   grid-cols-2
                   gap-4
                   max-w-6xl
+                  mb-8
                 "
               >
-                <div class="flex flex-col bg-gray-200 rounded-lg p-4 m-2 hover:bg-yellow-100">
+                <div
+                  class="
+                    flex flex-col
+                    bg-gray-200
+                    rounded-lg
+                    p-4
+                    m-2
+                    hover:bg-yellow-100
+                  "
+                >
                   <div class="flex flex-col bg-gray-200 rounded-lg">
                     <img
                       src="@/assets/images/frontend.svg"
@@ -57,7 +69,16 @@
                     </div>
                   </div>
                 </div>
-                <div class="flex flex-col bg-gray-200 rounded-lg p-4 m-2 hover:bg-yellow-100">
+                <div
+                  class="
+                    flex flex-col
+                    bg-gray-200
+                    rounded-lg
+                    p-4
+                    m-2
+                    hover:bg-yellow-100
+                  "
+                >
                   <div class="flex flex-col bg-gray-200 rounded-lg">
                     <img src="@/assets/images/frontend.svg" alt="" />
                     <div class="flex flex-col items-center mt-4">
@@ -67,7 +88,16 @@
                     </div>
                   </div>
                 </div>
-                <div class="flex flex-col bg-gray-200 rounded-lg p-4 m-2 hover:bg-yellow-100">
+                <div
+                  class="
+                    flex flex-col
+                    bg-gray-200
+                    rounded-lg
+                    p-4
+                    m-2
+                    hover:bg-yellow-50
+                  "
+                >
                   <div class="flex flex-col bg-gray-200 rounded-lg">
                     <img src="@/assets/images/frontend.svg" alt="" />
                     <div class="flex flex-col items-center mt-4">
@@ -87,8 +117,13 @@
 </template>
 
 <script>
+import { ParticlesBg } from "particles-bg-vue";
+
 export default {
   name: "Project",
+  components: {
+    ParticlesBg,
+  },
   data() {
     return {
       name: [{ text: "<Tire sua ideia do papel />" }],
