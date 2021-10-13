@@ -59,6 +59,7 @@
                         hover:bg-blue-100
                         w-32
                         h-32
+                        ml-4
                       "
                     >
                       <img src="@/assets/images/css.png" alt="" />
@@ -91,6 +92,7 @@
                         hover:bg-blue-100
                         w-32
                         h-32
+                        ml-4
                       "
                     >
                       <img src="@/assets/images/react.png" alt="" />
