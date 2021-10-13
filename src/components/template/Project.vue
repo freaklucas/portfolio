@@ -1,7 +1,6 @@
 <template>
   <div class="flex w-full">
     <particles-bg type="cobweb" :bg="true" />
-
     <div
       class="
         flex flex-col
@@ -80,7 +79,7 @@
                   "
                 >
                   <div class="flex flex-col bg-gray-200 rounded-lg">
-                    <img src="@/assets/images/frontend.svg" alt="" />
+                    <img src="@/assets/images/frontend1.png" alt="" />
                     <div class="flex flex-col items-center mt-4">
                       <h2 class="text-xl font-semibold text-gray-900">
                         Responsividade
@@ -99,7 +98,7 @@
                   "
                 >
                   <div class="flex flex-col bg-gray-200 rounded-lg">
-                    <img src="@/assets/images/frontend.svg" alt="" />
+                    <img src="@/assets/images/tests1.png" alt="" />
                     <div class="flex flex-col items-center mt-4">
                       <h2 class="text-xl font-semibold text-gray-900">
                         Testes automatizados

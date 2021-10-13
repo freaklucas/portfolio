@@ -3,6 +3,7 @@
     <Header />
     <About />
     <Project />
+    <Tech />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Header from "@/components/template/Header.vue";
 import About from "@/components/template/About.vue";
 import Project from "@/components/template/Project.vue";
+import Tech from "@/components/template/Tech.vue";
 
 export default {
   name: "Home",
@@ -17,6 +19,7 @@ export default {
     Header,
     About,
     Project,
+    Tech
   },
 };
 </script>
