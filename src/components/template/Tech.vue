@@ -95,7 +95,7 @@
                         ml-4
                       "
                     >
-                      <img src="@/assets/images/react.png" alt="" />
+                      <img src="@/assets/images/javascript.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -112,7 +112,7 @@
 export default {
   data() {
     return {
-      name: [{ text: "<Stack/>" }],
+      name: [{ text: "<Tecnologias />" }],
     };
   },
 };
