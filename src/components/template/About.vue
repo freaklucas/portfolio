@@ -21,7 +21,7 @@
               v-for="luk in name"
               v-bind:key="luk"
               class="
-                text-xl
+                text-2xl
                 font-bold
                 text-purple-900
                 cursor-pointer

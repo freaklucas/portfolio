@@ -1,6 +1,6 @@
 <template>
   <div class="flex w-full">
-    <particles-bg type="cobweb" :bg="true" />
+    <!-- <particles-bg type="cobweb" :bg="true" /> -->
     <div
       class="
         flex flex-col
@@ -17,6 +17,8 @@
           <p
             class="
               text-3xl
+                  md:text-3xl
+                  lg:text-5xl
               font-semibold
               text-gray-900
               cursor-pointer
@@ -116,12 +118,12 @@
 </template>
 
 <script>
-import { ParticlesBg } from "particles-bg-vue";
+// import { ParticlesBg } from "particles-bg-vue";
 
 export default {
   name: "Project",
   components: {
-    ParticlesBg,
+    // ParticlesBg,
   },
   data() {
     return {

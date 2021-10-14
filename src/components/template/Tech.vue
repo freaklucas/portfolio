@@ -21,6 +21,8 @@
                 v-bind:key="luk"
                 class="
                   text-3xl
+                  md:text-3xl
+                  lg:text-5xl
                   font-semibold
                   text-gray-900
                   cursor-pointer
@@ -34,7 +36,7 @@
               </p>
               <div class="center">
                 <div class="flex items-center">
-                  <div class="grid grid-cols-2 gap-4 mb-8">
+                  <div class="grid grid-cols-2 gap-4 mb-12">
                     <div
                       class="
                         flex flex-col
@@ -112,7 +114,7 @@
 export default {
   data() {
     return {
-      name: [{ text: "<Tecnologias />" }],
+      name: [{ text: "<Tecnologias/>" }],
     };
   },
 };
