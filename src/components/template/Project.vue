@@ -17,8 +17,8 @@
           <p
             class="
               text-3xl
-                  md:text-3xl
-                  lg:text-5xl
+              md:text-3xl
+              lg:text-5xl
               font-semibold
               text-gray-900
               cursor-pointer
@@ -32,8 +32,8 @@
           >
             {{ desc.text }}
           </p>
-          <p class="font-mono text-lg mt-4 hover:text-blue-200 text-center">
-            Entre em contato através das redes sociais abaixo
+          <p class="font-mono text-lg mt-4 hover:text-blue-900 text-center">
+            Entre em contato através das redes sociais
           </p>
           <div class="">
             <div class="flex items-center">
@@ -55,7 +55,8 @@
                     rounded-lg
                     p-4
                     m-2
-                    hover:bg-yellow-100
+                    hover:bg-purple-50
+                    transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-180
                   "
                 >
                   <div class="flex flex-col bg-gray-200 rounded-lg">
@@ -77,7 +78,8 @@
                     rounded-lg
                     p-4
                     m-2
-                    hover:bg-yellow-100
+                    hover:bg-purple-50
+                    transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-180
                   "
                 >
                   <div class="flex flex-col bg-gray-200 rounded-lg">
@@ -96,7 +98,8 @@
                     rounded-lg
                     p-4
                     m-2
-                    hover:bg-yellow-50
+                    hover:bg-purple-50
+                    transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-180
                   "
                 >
                   <div class="flex flex-col bg-gray-200 rounded-lg">

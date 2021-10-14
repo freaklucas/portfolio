@@ -27,7 +27,7 @@
                   text-gray-900
                   cursor-pointer
                   border-b border-transparent
-                  hover:text-blue-200
+                  hover:text-purple-900
                   mb-2
                   text-center
                 "
@@ -49,7 +49,18 @@
                         h-32
                       "
                     >
-                      <img src="@/assets/images/html.png" alt="" />
+                      <img
+                        src="@/assets/images/html.png"
+                        alt=""
+                        class="
+                          transition
+                          duration-500
+                          ease-in-out
+                          transform
+                          hover:-translate-y-1
+                          hover:scale-180
+                        "
+                      />
                     </div>
                     <div
                       class="
@@ -64,7 +75,18 @@
                         ml-4
                       "
                     >
-                      <img src="@/assets/images/css.png" alt="" />
+                      <img
+                        src="@/assets/images/css.png"
+                        alt=""
+                        class="
+                          transition
+                          duration-500
+                          ease-in-out
+                          transform
+                          hover:-translate-y-1
+                          hover:scale-180
+                        "
+                      />
                     </div>
                   </div>
                 </div>
@@ -82,7 +104,18 @@
                         h-32
                       "
                     >
-                      <img src="@/assets/images/vuejs.png" alt="" />
+                      <img
+                        src="@/assets/images/vuejs.png"
+                        alt=""
+                        class="
+                          transition
+                          duration-500
+                          ease-in-out
+                          transform
+                          hover:-translate-y-1
+                          hover:scale-180
+                        "
+                      />
                     </div>
                     <div
                       class="
@@ -97,7 +130,18 @@
                         ml-4
                       "
                     >
-                      <img src="@/assets/images/javascript.png" alt="" />
+                      <img
+                        src="@/assets/images/javascript.png"
+                        alt=""
+                        class="
+                          transition
+                          duration-500
+                          ease-in-out
+                          transform
+                          hover:-translate-y-1
+                          hover:scale-200
+                        "
+                      />
                     </div>
                   </div>
                 </div>

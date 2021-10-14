@@ -21,7 +21,7 @@
               text-center
               cursor-pointer
               border-b border-transparent
-              hover:text-blue-200
+              hover:text-purple-800
               mb-2
               font-semibold
               text-3xl
@@ -188,13 +188,7 @@
 </template>
 
 <script>
-
-// import { ParticlesBg } from "particles-bg-vue";
-
 export default {
-    components: {
-        // ParticlesBg,
-    },
   data() {
     return {
       name: [{ text: "<Melhores projetos />" }],
