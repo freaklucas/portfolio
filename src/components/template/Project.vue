@@ -118,13 +118,8 @@
 </template>
 
 <script>
-// import { ParticlesBg } from "particles-bg-vue";
-
 export default {
   name: "Project",
-  components: {
-    // ParticlesBg,
-  },
   data() {
     return {
       name: [{ text: "<Tire sua ideia do papel />" }],

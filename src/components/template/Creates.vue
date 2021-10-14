@@ -7,7 +7,7 @@
         justify-around
         items-center
         pt-4
-        bg-purple-100
+        bg-purple-50
         w-full
         text-center
       "
