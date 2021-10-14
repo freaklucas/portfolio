@@ -1,11 +1,11 @@
 <template>
   <div>
-    <particles-bg type="cobweb" :bg="true" />
     <Header />
     <About />
     <Project />
     <Tech />
     <Creates />
+    <Footer />
   </div>
 </template>
 
@@ -15,8 +15,8 @@ import About from "@/components/template/About.vue";
 import Project from "@/components/template/Project.vue";
 import Tech from "@/components/template/Tech.vue";
 import Creates from "@/components/template/Creates.vue";
+import Footer from "@/components/template/Footer.vue";
 
-import { ParticlesBg } from "particles-bg-vue";
 
 
 export default {
@@ -27,7 +27,7 @@ export default {
     Project,
     Tech,
     Creates,
-    ParticlesBg
+    Footer
   },
 };
 </script>

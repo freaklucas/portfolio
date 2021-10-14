@@ -1,16 +1,19 @@
 <template>
   <div id="app">
+      <particles-bg type="cobweb" :bg="true" />
       <home />
   </div>
 </template>
 
 <script>
 import Home from '@/components/home/Home.vue'
+import { ParticlesBg } from "particles-bg-vue";
 
 export default {
   name: 'App',
   components: {
-    Home
+    ParticlesBg,
+    Home,
   }
 }
 </script>
