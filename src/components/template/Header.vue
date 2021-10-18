@@ -2,16 +2,17 @@
   <div class="flex items-center justify-between w-full">
     <header
       class="
-        
         items-center
         justify-between
         flex-wrap
-        p-4
+        md:p-4
+        lg:p-4
         w-full
         text-gray-100
         bg-gray-900
         font-mono
         shadow
+        
       "
     >
       <div
@@ -29,38 +30,39 @@
           class="
             flex
             lg:w-full
+            sm:w-full
             flex-wrap
             items-center
             text-base
             md:ml-auto
             inline-flex
-            space-x-4
-            sm:w-full
-          "
+            space-x-2      "
         >
           <a
             v-for="luk in name" v-bind:key="luk"
             class="
-              flex-1
+              lg:flex-auto
               hover:text-purple-300
               cursor-pointer
               border-b border-transparent
               hover:border-indigno-600
+              text-lg
+              
             "
           >
             {{ luk.text}}
           </a>
           <a
             class="
-              flex-2
+              flex-1
               inline-flex
+               sm:center
               justify-end
-              ml-2
-              mr-4
               hover:text-purple-300
               cursor-pointer
               border-b border-transparent
               hover:border-indigno-600
+               sm:text-sm
             "
           >
             Quem sou?
@@ -68,27 +70,30 @@
           <a
             class="
               flex-2
+               sm:center
               inline-flex
               justify-end
-              ml-2
               hover:text-purple-300
               cursor-pointer
               border-b border-transparent
               hover:border-indigno-600
+               sm:text-sm
             "
           >
             Contato
           </a>
           <a
             class="
-              flex-3
-              inline-flexjustify-end
-              ml-4
+              flex-2
+              sm:center
+              inline-flex
+              justify-end
               lg:ml-0
               hover:text-purple-300
               cursor-pointer
               border-b border-transparent
               hover:border-indigno-600
+               sm:text-sm
             "
           >
             Projetos

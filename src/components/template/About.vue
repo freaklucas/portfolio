@@ -11,8 +11,8 @@
         w-full
       "
     >
-      <div class="w-2/3 mr-8 ml-4">
-        <h1 class="font-bold text-4xl mb-4 text-gray-200 text-justify ml-4">
+      <div class="lg:w-2/3 md:w-2/3 mr-8 ml-4 sm:px-6 lg:px-4 center">
+        <h1 class="font-bold text-3xl mb-4 text-gray-200 text-justify ml-1">
           Seja muito bem vindo(a), sou o
         </h1>
         <div class="flex line">
@@ -21,23 +21,23 @@
               v-for="luk in name"
               v-bind:key="luk"
               class="
-                text-2xl
+                text-1xl
                 font-bold
                 text-purple-900
                 cursor-pointer
                 border-b border-transparent
                 hover:text-blue-200
-                mb-2
                 mt-4
-                ml-4
+                ml-1
               "
             >
               {{ luk.text }}
             </a>
             <h2
               class="
+                center
                 font-bold
-                text-gray-800 text-xl text-justify
+                text-gray-800 text-2xl text-justify
                 justify-center
                 mt-4
                 ml-2
