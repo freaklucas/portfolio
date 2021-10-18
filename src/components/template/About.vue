@@ -12,7 +12,7 @@
       "
     >
       <div class="lg:w-2/3 md:w-2/3 mr-8 ml-4 sm:px-6 lg:px-4 center">
-        <h1 class="font-bold text-lg lg:text-4xl sm:text-lg mb-4 text-gray-200 text-justify ml-1">
+        <h1 class="font-bold text-lg lg:text-5xl sm:text-lg mb-4 text-gray-200 text-justify ml-1">
           Seja muito bem vindo(a), sou o
         </h1>
         <div class="flex line">
