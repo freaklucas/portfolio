@@ -12,20 +12,9 @@
         font-mono
         shadow
         sm:text-sm
-        
       "
     >
-      <div
-        class="
-          container
-          mx-auto
-          flex 
-          p-4
-          flex-col
-          md:flex-row
-          items-center
-        "
-      >
+      <div class="container mx-auto flex p-4 flex-col md:flex-row items-center">
         <div
           class="
             flex
@@ -36,10 +25,12 @@
             text-base
             md:ml-auto
             inline-flex
-            space-x-2      "
+            space-x-2
+          "
         >
           <a
-            v-for="luk in name" v-bind:key="luk"
+            v-for="luk in name"
+            v-bind:key="luk"
             class="
               lg:flex-auto
               hover:text-purple-300
@@ -47,44 +38,55 @@
               border-b border-transparent
               hover:border-indigno-600
               text-normal
-              
+              transition
+              duration-500
+              ease-in-out
+              transform
+              hover:-translate-y-1 hover:scale-110
             "
           >
-            {{ luk.text}}
+            {{ luk.text }}
           </a>
           <a
             class="
-              
               inline-flex
-               sm:center
+              sm:center
               justify-end
               hover:text-purple-300
               cursor-pointer
               border-b border-transparent
               hover:border-indigno-600
-               sm:text-sm
+              sm:text-sm
+              transition
+              duration-500
+              ease-in-out
+              transform
+              hover:-translate-y-1 hover:scale-110
             "
           >
             Sobre
           </a>
           <a
             class="
-              
-               sm:center
+              sm:center
               inline-flex
               justify-end
               hover:text-purple-300
               cursor-pointer
               border-b border-transparent
               hover:border-indigno-600
-               sm:text-sm
+              sm:text-sm
+              transition
+              duration-500
+              ease-in-out
+              transform
+              hover:-translate-y-1 hover:scale-110
             "
           >
             Contato
           </a>
           <a
             class="
-             
               sm:center
               inline-flex
               justify-end
@@ -93,7 +95,12 @@
               cursor-pointer
               border-b border-transparent
               hover:border-indigno-600
-               sm:text-sm
+              sm:text-sm
+              transition
+              duration-500
+              ease-in-out
+              transform
+              hover:-translate-y-1 hover:scale-110
             "
           >
             Projetos
@@ -106,13 +113,11 @@
 
 <script>
 export default {
-    data() {
-        return {
-            name: [ 
-               { text: '<Lucas/>' }
-            ]
-        }
-    }
+  data() {
+    return {
+      name: [{ text: "<Lucas/>" }],
+    };
+  },
 };
 </script>
 

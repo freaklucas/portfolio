@@ -1,6 +1,5 @@
 <template>
   <div class="flex w-full">
-    <!-- <particles-bg type="cobweb" :bg="true" /> -->
     <div
       class="
         flex flex-col
@@ -37,11 +36,7 @@
           </p>
           <div class="">
             <div class="flex items-center flex-col">
-              <div
-                class="
-                  grid sm:row-span-3 md:grid-flow-col 
-                "
-              >
+              <div class="grid sm:row-span-3 md:grid-flow-col">
                 <div
                   class="
                     flex flex-col
