@@ -12,7 +12,7 @@
       "
     >
       <div class="lg:w-2/3 md:w-2/3 mr-8 ml-4 sm:px-6 lg:px-4 center">
-        <h1 class="font-bold text-3xl mb-4 text-gray-200 text-justify ml-1">
+        <h1 class="font-bold text-lg lg:text-4xl sm:text-lg mb-4 text-gray-200 text-justify ml-1">
           Seja muito bem vindo(a), sou o
         </h1>
         <div class="flex line">
@@ -23,12 +23,13 @@
               class="
                 text-1xl
                 font-bold
-                text-purple-900
+                text-gray-900
                 cursor-pointer
                 border-b border-transparent
                 hover:text-blue-200
                 mt-4
                 ml-1
+                lg:text-3xl
               "
             >
               {{ luk.text }}
@@ -41,6 +42,7 @@
                 justify-center
                 mt-4
                 ml-2
+                sm:text-lg
               "
             >
               Desenvolvedor front-end focado na experiência do usuário

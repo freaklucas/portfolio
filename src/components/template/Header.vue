@@ -3,7 +3,6 @@
     <header
       class="
         items-center
-        justify-between
         flex-wrap
         md:p-4
         lg:p-4
@@ -12,6 +11,7 @@
         bg-gray-900
         font-mono
         shadow
+        sm:text-sm
         
       "
     >
@@ -19,14 +19,14 @@
         class="
           container
           mx-auto
-          flex flex-wrap
+          flex 
           p-4
           flex-col
           md:flex-row
           items-center
         "
       >
-        <nav
+        <div
           class="
             flex
             lg:w-full
@@ -46,7 +46,7 @@
               cursor-pointer
               border-b border-transparent
               hover:border-indigno-600
-              text-lg
+              text-normal
               
             "
           >
@@ -54,7 +54,7 @@
           </a>
           <a
             class="
-              flex-1
+              
               inline-flex
                sm:center
               justify-end
@@ -65,11 +65,11 @@
                sm:text-sm
             "
           >
-            Quem sou?
+            Sobre
           </a>
           <a
             class="
-              flex-2
+              
                sm:center
               inline-flex
               justify-end
@@ -84,7 +84,7 @@
           </a>
           <a
             class="
-              flex-2
+             
               sm:center
               inline-flex
               justify-end
@@ -98,7 +98,7 @@
           >
             Projetos
           </a>
-        </nav>
+        </div>
       </div>
     </header>
   </div>
@@ -109,7 +109,7 @@ export default {
     data() {
         return {
             name: [ 
-               { text: '<Lucas Oliveira/>' }
+               { text: '<Lucas/>' }
             ]
         }
     }

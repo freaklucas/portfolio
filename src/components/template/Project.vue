@@ -56,7 +56,11 @@
                     p-4
                     m-2
                     hover:bg-purple-50
-                    transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-180
+                    transition
+                    duration-500
+                    ease-in-out
+                    transform
+                    hover:-translate-y-1 hover:scale-180
                   "
                 >
                   <div class="flex flex-col bg-gray-200 rounded-lg">
@@ -79,7 +83,11 @@
                     p-4
                     m-2
                     hover:bg-purple-50
-                    transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-180
+                    transition
+                    duration-500
+                    ease-in-out
+                    transform
+                    hover:-translate-y-1 hover:scale-180
                   "
                 >
                   <div class="flex flex-col bg-gray-200 rounded-lg">
@@ -99,7 +107,11 @@
                     p-4
                     m-2
                     hover:bg-purple-50
-                    transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-180
+                    transition
+                    duration-500
+                    ease-in-out
+                    transform
+                    hover:-translate-y-1 hover:scale-180
                   "
                 >
                   <div class="flex flex-col bg-gray-200 rounded-lg">
