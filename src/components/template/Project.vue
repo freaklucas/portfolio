@@ -36,16 +36,10 @@
             Entre em contato através das redes sociais
           </p>
           <div class="">
-            <div class="flex items-center">
+            <div class="flex items-center flex-col">
               <div
                 class="
-                  grid
-                  xl:grid-cols-3
-                  md:grid-cols-2
-                  grid-cols-2
-                  gap-4
-                  max-w-6xl
-                  mb-8
+                  grid sm:row-span-3 md:grid-flow-col 
                 "
               >
                 <div
