@@ -34,19 +34,18 @@
             >
               {{ luk.text }}
             </a>
-            <h2
+            <p
               class="
-                center
-                font-bold
-                text-gray-800 text-2xl text-justify
-                justify-center
-                mt-4
-                ml-2
-                sm:text-lg
+                font-mono
+                text-gray-800
+                mt-2
+                text-base
+                tracking-tighter
+                text-center
               "
             >
               Desenvolvedor front-end focado na experiência do usuário
-            </h2>
+            </p>
             <h2
               class="
                 font-bold
