@@ -20,7 +20,7 @@
             {{ luk.text }}
           </h2>
           <p class="opacity-60 hover:text-gray-900">
-            front-end developer focused on user experience
+            Front-end developer focused on user experience
           </p>
         </div>
         <div class="w-full sm:w-1/5 flex flex-col space-y-4">
