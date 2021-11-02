@@ -109,7 +109,7 @@
                     />
                   </div>
                   <div class="text-center">
-                    <p class="text-xl text-gray-700 font-bold mb-2">
+                    <p class="text-xl text-gray-700 font-bold mb-2 mt-2">
                       Twitter clone
                     </p>
                     <p class="text-base text-gray-400 font-normal">
