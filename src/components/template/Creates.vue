@@ -68,7 +68,7 @@
                     <p class="text-xl text-gray-700 font-bold mb-2">
                       Plataforma Feedbacker
                     </p>
-                    <p class="text-base text-gray-400 font-normal">
+                    <p class="text-base text-gray-400 font-normal mb-2">
                       Javascript | Vue.js | Tailwind.css
                     </p>
                   </div>
@@ -84,7 +84,7 @@
                        hover:border-blue-900
                       rounded
                       ml-2
-                      mt-2
+                      mt-4
                     "
                   >
                     Link
