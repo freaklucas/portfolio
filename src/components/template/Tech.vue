@@ -127,7 +127,7 @@
                         hover:bg-blue-100
                         w-32
                         h-32
-                        ml-4
+                        ml-2
                       "
                     >
                       <img
