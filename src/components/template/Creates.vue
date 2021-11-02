@@ -74,17 +74,17 @@
                   </div>
                   <button
                     class="
-                       bg-blue-800
-                        hover:bg-gray-900
-                        text-white
-                        font-bold
-                        py-1
-                        px-4
-                        border-b-4 border-blue-900
-                        hover:border-blue-900
-                        rounded
-                        ml-2
-                        mt-2
+                      bg-blue-800
+                      hover:bg-purple-600
+                      text-white
+                      font-bold
+                      py-1
+                      px-4
+                      border-b-4 border-blue-900
+                      hover:border-blue-900
+                      rounded
+                      ml-2
+                      mt-2
                     "
                   >
                     Link
@@ -118,17 +118,17 @@
                   </div>
                   <button
                     class="
-                       bg-blue-800
-                        hover:bg-gray-900
-                        text-white
-                        font-bold
-                        py-1
-                        px-4
-                        border-b-4 border-blue-900
-                        hover:border-blue-900
-                        rounded
-                        ml-2
-                        mt-2
+                      bg-blue-800
+                      hover:bg-blue-600
+                      text-white
+                      font-bold
+                      py-1
+                      px-4
+                      border-b-4 border-blue-900
+                      hover:border-blue-900
+                      rounded
+                      ml-2
+                      mt-2
                     "
                   >
                     Link
