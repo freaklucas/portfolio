@@ -81,7 +81,7 @@
                       py-1
                       px-4
                       border-b-4 border-blue-900
-                      hover:border-blue-900
+                       hover:border-blue-900
                       rounded
                       ml-2
                       mt-2
@@ -109,7 +109,7 @@
                     />
                   </div>
                   <div class="text-center">
-                    <p class="text-xl text-gray-700 font-bold mb-2 mt-2">
+                    <p class="text-xl text-gray-700 font-bold mb-2">
                       Twitter clone
                     </p>
                     <p class="text-base text-gray-400 font-normal">
