@@ -62,6 +62,7 @@
         </div>
         <button
           class="
+            center
             bg-blue-800
             hover:bg-blue-600
             text-white
