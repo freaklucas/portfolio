@@ -112,7 +112,7 @@
                     <p class="text-xl text-gray-700 font-bold mb-2">
                       Twitter clone
                     </p>
-                    <p class="text-base text-gray-400 font-normal">
+                    <p class="text-base text-gray-400 font-normal mb-4">
                       Javascript | Vue.js | Tailwind.css
                     </p>
                   </div>
